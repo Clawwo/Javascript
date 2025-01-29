@@ -21,7 +21,7 @@ const { name, lastName } = user;
 console.log(name, lastName);
 // { name, lastName }: Memberitahu JavaScript untuk mencari properti dengan nama yang sama (name dan lastName) di dalam objek user.
 
-//menghapus data
+//menghapus data object
 delete user.age; //cara ke 1
 delete user['last name']; //lebih disarankan 
 console.log(user);
@@ -71,6 +71,7 @@ const map = new Map([
 console.log(map.get('drinks')); //mencari key di map
 map.set('drinks', 'soda'); //mengubah value di map
 map.delete('sleep');
+console.log(map.has('food')); //mencari key di map
 console.log(map);
 
 //4. Set
