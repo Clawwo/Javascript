@@ -1,0 +1,116 @@
+/* Reset margin dan padding untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+h1, h2, h3 {
+    color: #2c3e50; /* Warna judul */
+}
+
+hr {
+    height: 2px;
+    color: black;
+    background-color: black;
+    width: 95%;
+    margin: 20px 0; /* Jarak atas dan bawah */
+}
+
+.title {
+  font-size: 2em;
+}
+
+.contents {
+    margin: 20px;
+    width: 90%; /* Lebar konten */
+    max-width: 1200px; /* Lebar maksimum */
+    margin-top: 3rem;
+}
+
+.child-content {
+    border: 2px solid #34495e; /* Warna border */
+    border-radius: 8px; /* Sudut melengkung */
+    padding: 20px; /* Padding di dalam konten */
+    margin-bottom: 20px; /* Jarak antar konten */
+    background-color: #ecf0f1; /* Warna latar belakang konten */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
+}
+
+.child-content h2 {
+    margin-bottom: 10px;
+}
+
+.form-element {
+    margin: 2%;
+}
+
+#user-form {
+    width: 50%;
+    height: 40%;
+}
+
+#user-list {
+    margin-top: 1%;
+    width: 55%;
+}
+
+#instructions-list {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+/* CSS untuk button */
+button[type="submit"] {
+    background-color: #333; /* Warna latar belakang button */
+    color: #fff; /* Warna teks button */
+    padding: 10px 20px; /* Ukuran button */
+    border: none; /* Tidak ada border */
+    border-radius: 5px; /* Sudut melengkung */
+    cursor: pointer; /* Tampilan cursor */
+}
+
+button[type="submit"]:hover {
+    background-color: #444; /* Warna latar belakang button saat di-hover */
+}
+
+/* CSS untuk input */
+input[type="text"] {
+    width: 100%; /* Lebar input */
+    padding: 10px; /* Ukuran input */
+    margin-bottom: 20px; /* Jarak antar input */
+    border: 1px solid #ccc; /* Warna border input */
+    border-radius: 5px; /* Sudut melengkung */
+}
+
+input[type="text"]:focus {
+    border-color: #333; /* Warna border input saat di-focus */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan input saat di-focus */
+}
