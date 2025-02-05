@@ -44,7 +44,7 @@ const array = [1, 2, 3];//array literals disarankan
 
 //megakses array 
 console.log(ages[2]); //memaggil array
-ages[1] = 50; //mengubah array 
+ages[1] = 10; //mengubah array 
 ages.push(60); //menambah array
 delete ages[0]; //menghapus array tidak dengan element
 ages.splice(0, 1  ); //menghapus array dengan element
